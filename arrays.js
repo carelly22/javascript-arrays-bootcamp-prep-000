@@ -1,10 +1,13 @@
+//this defines an array chocolateBars
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
+//this defines a function which adds an element to an array and leaves the original array untouched
 function addElementToBeginningOfArray(myArray, element){
   var newArray = [element, ...myArray]
   return newArray
 }
 
+//this defines a function which adds an element to an array and changes the original array
 function destructivelyAddElementToBeginningOfArray(myArray, element){
   myArray.unshift(element)
   return myArray
