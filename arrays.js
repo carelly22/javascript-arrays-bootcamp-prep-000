@@ -36,11 +36,13 @@ function destructivelyRemoveElementFromBeginningOfArray(myArray){
   return myArray
 }
 
+//this defines a function which removes an element from the beginning of an array and leaves the original array untouched
 function removeElementFromBeginningOfArray(myArray){
   var newArray = myArray.slice(1)
   return newArray
 }
 
+//this defines a function which removes an element from the end of an array and changes the original array
 function destructivelyRemoveElementFromEndOfArray(myArray){
   myArray.pop()
   return myArray
