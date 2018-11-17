@@ -13,20 +13,24 @@ function destructivelyAddElementToBeginningOfArray(myArray, element){
   return myArray
 }
 
+//this defines a function which adds an element to the end of an array and leaves the original array untouched
 function addElementToEndOfArray(myArray, element){
   var newArray = [...myArray, element]
   return newArray
 }
 
+//this defines an array which adds an element to the end of an array and changes the original array
 function destructivelyAddElementToEndOfArray(myArray, element){
   myArray.push(element)
   return myArray
 }
 
+//this defines a function which returns an element in an array given the index
 function accessElementInArray(myArray, index){
   return myArray[index]
 }
 
+//this defines a function which removes an element from the beginning of an array and changes the original array
 function destructivelyRemoveElementFromBeginningOfArray(myArray){
   myArray.shift()
   return myArray
