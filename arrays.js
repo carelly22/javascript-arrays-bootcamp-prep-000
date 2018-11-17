@@ -47,7 +47,7 @@ function destructivelyRemoveElementFromEndOfArray(myArray){
   myArray.pop()
   return myArray
 }
-
+//this defines a function which removes an element from the end of an array and leaves the original array untouched
 function removeElementFromEndOfArray(myArray){
   var newArray = myArray.slice(0, myArray.length - 1)
   return newArray
